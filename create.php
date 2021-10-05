@@ -12,11 +12,11 @@
 
             if ($conn->query($sql) === TRUE) {
                 echo '<div class="alert alert-success" role="alert">
-                        Record updated successfully 😊
+                        Record updated successfully ðŸ˜Š
                       </div>';
             } else {
                 echo '<div class="alert alert-danger" role="alert">
-                        An error occurred while updating 😱 <br>
+                        An error occurred while updating ðŸ˜± <br>
                         Error:  '.$sql.' <br>  '.$conn->error.'
                       </div>';
             }
